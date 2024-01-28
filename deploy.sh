@@ -16,10 +16,10 @@ git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-git push -f git@github.com:aaron00366/aaronVueProject2024.github.io.git main
+# git push -f https://github.com/aaron00366/aaronVueProject2024.git main
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 # git push -f https://aaron00366.github.io/aaronVueProject2024.git main:gh-pages
-# git push -f https://github.com/aaron00366/aaronVueProject2024.git master:gh-pages
+git push -f https://github.com/aaron00366/aaronVueProject2024.git main:gh-pages
 
 cd -
